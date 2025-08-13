@@ -1,4 +1,4 @@
-# Go to PEAK TOK Site:
+# Go to PeekTok Site:
 https://peek-tok-tiktok-link-viewer.vercel.app/
 
 # Background
