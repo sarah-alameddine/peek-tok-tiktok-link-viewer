@@ -2,6 +2,6 @@
 https://peek-tok-tiktok-link-viewer.vercel.app/
 
 # Background
-I don't have the TikTok app on my phone. When friends/family send me TikToks these links are usuall not viewable and redirect to the app store.
+I don’t have the TikTok app on my phone, so when friends or family send me TikTok links, they usually don’t load properly and just redirect me to the App Store.
 
-So this is a quick site that removes everything after the '?' in the TikTok link so no redirections happen and I can happily view TikToks videos 😊
+This site quickly cleans up the link by removing everything after the ?, so I can happily watch TikTok videos in my browser without any annoying redirections 😊
