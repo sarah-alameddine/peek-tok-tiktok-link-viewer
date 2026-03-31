@@ -1,5 +1,5 @@
 # Go to PeekTok Site:
-https://peek-tok-tiktok-link-viewer.vercel.app/
+[https://peek-tok-tiktok-link-viewer.vercel.app/](https://peektok.vercel.app/)
 
 # Background
 I don’t have the TikTok app on my phone, so when friends or family send me TikTok links, they usually don’t load properly and just redirect me to the App Store.
