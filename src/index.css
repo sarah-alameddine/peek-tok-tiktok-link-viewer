@@ -3,7 +3,6 @@
   line-height: 1.5;
   font-weight: 400;
 
-  /* Analogous Harmony Color Palette */
   --primary-purple: #8A2BE2;
   --royal-blue: #4169E1;
   --orchid: #DA70D6;
@@ -15,12 +14,35 @@
 
   color-scheme: light;
   color: var(--deep-purple);
-  background: linear-gradient(135deg, var(--very-light-purple) 0%, var(--light-lavender) 100%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: block;
+  background: linear-gradient(135deg,
+      var(--primary-purple),
+      var(--royal-blue));
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -29,19 +51,9 @@ a {
   text-decoration: inherit;
   transition: color 0.3s ease;
 }
+
 a:hover {
   color: var(--orchid);
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  /* background: linear-gradient(135deg, var(--very-light-purple) 0%, var(--light-lavender) 100%); */
-    background: linear-gradient(135deg, var(--primary-purple), var(--royal-blue));
-
 }
 
 h1 {
@@ -52,24 +64,38 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
-  border: 2px solid var(--primary-purple);
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  border-radius: 6px;
+  border: 1px solid var(--primary-purple);
+
+  padding: 0.35em 0.8em;
+  font-size: 0.95em;
+
   font-weight: 500;
   font-family: inherit;
-  background: linear-gradient(135deg, var(--primary-purple), var(--royal-blue));
+
+  background: linear-gradient(135deg,
+      var(--primary-purple),
+      var(--royal-blue));
+
   color: white;
   cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(138, 43, 226, 0.2);
+
+  transition: all 0.22s ease;
+
+  box-shadow: 0 2px 8px rgba(138, 43, 226, 0.12);
 }
+
 button:hover {
-  background: linear-gradient(135deg, var(--orchid), var(--primary-purple));
+  background: linear-gradient(135deg,
+      var(--orchid),
+      var(--primary-purple));
+
   border-color: var(--orchid);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(218, 112, 214, 0.3);
+  transform: translateY(-1px);
+
+  box-shadow: 0 4px 12px rgba(218, 112, 214, 0.18);
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto var(--orchid);
