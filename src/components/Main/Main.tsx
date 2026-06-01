@@ -9,7 +9,7 @@ export default function Main() {
           Paste a TikTok link below
         </h1>
         <p className="subheading-section">
-          Watch TikTok videos without the app and without getting redirected by your browser.
+          View TikTok links without the app and without getting redirected to app store.
         </p>
         <LinkProcessor />
       </section>

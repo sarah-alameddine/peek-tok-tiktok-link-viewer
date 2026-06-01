@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-left">
-        Built out of stubbornness to download TikToks😸{" "}
+        Built out of stubbornness to download TikTok😸{" "}
       </div>
       <div className="footer-right">
         <a

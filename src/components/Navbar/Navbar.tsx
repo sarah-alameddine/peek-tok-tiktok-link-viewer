@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="nav-container">
         <div className="nav-brand">
-          <i className="fab fa-tiktok fa-2x main-wrapper">PeakTok 👀</i>
+          <i className="fab fa-tiktok fa-2x main-wrapper">PeekTok 👀</i>
         </div>
       </div>
     </nav>

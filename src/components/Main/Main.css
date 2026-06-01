@@ -8,17 +8,18 @@
 }
 
 .title-section {
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-size: clamp(2rem, 5vw, 5rem);
   font-weight: 700;
   color: var(--deep-purple);
   text-shadow: 1px 1px 2px rgba(138, 43, 226, 0.1);
   margin: 0;
   line-height: 1.1;
+    font-family: "Caveat Brush", cursive;
 }
 
 .subheading-section {
-  max-width: 700px;
-  font-size: clamp(1rem, 1.5vw, 1.35rem);
+  max-width: 600px;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
   line-height: 1.6;
   color: var(--deep-purple);
   opacity: 0.8;
@@ -84,7 +85,7 @@
   }
 
   .title-section {
-    font-size: 1.8rem;
+    font-size: 2.5em;
   }
 
   .subheading-section {
